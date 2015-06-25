@@ -2,7 +2,7 @@
 $plugin = array(
   'label' => t('Blog Posts'),
   'resource' => 'articles',
-  'name' => 'blog_posts__1_0',
+  'name' => 'blogPosts__1_0',
   'entity_type' => 'node',
   'bundle' => 'blog_post',
   'description' => t('Fourword blog posts using view modes'),
