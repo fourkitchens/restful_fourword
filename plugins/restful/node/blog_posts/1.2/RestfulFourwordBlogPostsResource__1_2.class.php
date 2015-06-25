@@ -13,13 +13,13 @@ class RestfulFourwordBlogPostsResource__1_2 extends RestfulEntityBaseNode {
   public function publicFieldsInfo() {
     $public_fields = parent::publicFieldsInfo();
 
-    // $public_fields['lead_image'] = array(
-    //   'property' => 'field_lead_image',
-    //   'process_callbacks' => array(
-    //     array($this, 'fourwordImageProcess'),
-    //   ),
-    //   'image_styles' => array('thumbnail', 'medium', 'large'),
-    // );
+    $public_fields['lead_image'] = array(
+      'property' => 'field_lead_image',
+      'process_callbacks' => array(
+        array($this, 'fourwordImageProcess'),
+      ),
+      'image_styles' => array('thumbnail', 'medium', 'large'),
+    );
 
     $public_fields['categories'] = array(
       'property' => 'field_blog_categories_term_tree',
