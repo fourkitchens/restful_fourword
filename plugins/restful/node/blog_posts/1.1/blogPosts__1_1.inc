@@ -2,7 +2,7 @@
 
 $plugin = array(
   'label' => t('Blog Posts'),
-  'resource' => 'blogposts',
+  'resource' => 'articles',
   'name' => 'blogPosts__1_1',
   'entity_type' => 'node',
   'bundle' => 'blog_post',
